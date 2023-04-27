@@ -1,4 +1,5 @@
-/- Find the top three Elves carrying the most Calories. 
+/- 2022 Day 1 Part Two
+Find the top three Elves carrying the most Calories. 
 How many Calories are those Elves carrying in total?-/
 
 def test : String :=

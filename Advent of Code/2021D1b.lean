@@ -1,4 +1,5 @@
-/-Consider sums of a three-measurement sliding window. 
+/- 2021 Day 1 Part Two
+Consider sums of a three-measurement sliding window. 
 How many sums are larger than the previous sum?-/
 
 def test : String :=

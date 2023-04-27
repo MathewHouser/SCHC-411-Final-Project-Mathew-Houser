@@ -1,3 +1,7 @@
+/- 2022 Day 2 Part Two
+What would your total score be if everything 
+goes exactly according to your strategy guide?-/
+
 def test : String :=
 "A Y
 C Y
@@ -2502,15 +2506,15 @@ A Y"
 
 def replace : String :=
   let x := test
-  let x := x.replace "A X" "4"
-  let x := x.replace "A Y" "8"
-  let x := x.replace "A Z" "3"
+  let x := x.replace "A X" "3"
+  let x := x.replace "A Y" "4"
+  let x := x.replace "A Z" "8"
   let x := x.replace "B X" "1"
   let x := x.replace "B Y" "5"
   let x := x.replace "B Z" "9"
-  let x := x.replace "C X" "7"
-  let x := x.replace "C Y" "2"
-  let x := x.replace "C Z" "6"
+  let x := x.replace "C X" "2"
+  let x := x.replace "C Y" "6"
+  let x := x.replace "C Z" "7"
   x
 
 def split (s : String) : List String := s.splitOn "\n"

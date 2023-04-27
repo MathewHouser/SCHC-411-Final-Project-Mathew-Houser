@@ -1,4 +1,5 @@
-/- what is the product of the three entries that sum to 2020? -/
+/- 2020 Day 1 Part Two
+What is the product of the three entries that sum to 2020? -/
 
 def test : String :=
 "1583

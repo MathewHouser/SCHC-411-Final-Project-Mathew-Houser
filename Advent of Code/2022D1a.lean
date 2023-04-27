@@ -1,4 +1,5 @@
-/- Find the Elf carrying the most Calories. 
+/- 2022 Day 1 Part One
+Find the Elf carrying the most Calories. 
 How many total Calories is that Elf carrying?-/
 
 def test : String :=
